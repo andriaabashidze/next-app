@@ -1,0 +1,9 @@
+.container{
+    background-color: brown;
+    display:flex;
+    justify-content: space-between;
+}
+.socnets{
+    display:flex;
+    justify-content: center;
+}
