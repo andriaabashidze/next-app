@@ -13,7 +13,7 @@ export default function Home() {
         </h1>
         <p className={styles.desc}>
           Turning your Idea into Reality.We bring together the teams from the
-          global tech indistry.kokokokokokokokokokokokokokoko
+          global tech indistry.please help me
         </p>
         <Button title={"See Our Works"} url={'/portfolio'}/>
       </div>
