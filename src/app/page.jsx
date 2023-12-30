@@ -12,7 +12,8 @@ export default function Home() {
           Better design for your digital products.
         </h1>
         <p className={styles.desc}>
-          HEEEEEEEEEEEEELP HHHHHHHEEEEEEEEEEEEEEEEEEEEEEEELP           HHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEELP
+          Turning your Idea into Reality.We bring together the teams from the
+          global tech indistry.kokokokokokokokokokokokokokoko
         </p>
         <Button title={"See Our Works"} url={'/portfolio'}/>
       </div>
