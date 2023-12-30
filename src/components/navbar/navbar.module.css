@@ -1,7 +1,30 @@
-.container{
-    color :blueviolet;
-    background-color: blanchedalmond;
-    display:flex;
+.container {
+    
+    height: 100px;
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+}
+.logout {
+    padding: 5px;
+    border: none;
+    background-color: #53c28b;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.logout:hover{
+    transition: 0.3s;
+    background-color: #237c63;
 }

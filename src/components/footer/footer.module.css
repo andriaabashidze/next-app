@@ -1,9 +1,16 @@
-.container{
-    background-color: brown;
-    display:flex;
+.container {
+
+    height: 50px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
 }
-.socnets{
-    display:flex;
-    justify-content: center;
+.socialNetworks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.socialIcon {
+    cursor: pointer;
 }

@@ -1,25 +1,59 @@
-import React from 'react'
-import styles from './footer.module.css'
-import Image from 'next/image'
+import React from "react";
+import styles from "./footer.module.css";
+import Image from "next/image";
+import Link from "next/link";
+
 
 function Footer() {
   return (
-    <div >
-
     <div className={styles.container}>
-      <div className={styles.one}>
-      aaa
-      </div>
-      <div className={styles.socnets}>
-      <Image src='/1.png' width={25} height={25} alt="facebook"/>
-        <Image src='/2.png' width={25} height={25} alt="insta"/>
-        <Image src='/3.png' width={25} height={25} alt="twitter"/>
-        <Image src='/4.png' width={25} height={25} alt="youtube"/>
+      {/* {gamarjoba} */}
+      {/* {rogor khar} */}
+      <div>@all rights reserved</div>
+      <div className={styles.socialNetworks}>
+        <Link href={"https://www.facebook.com/"} target="_blank">
+          <Image
+            url={"https://www.facebook.com/"}
+            src="/1.png"
+            width={15}
+            className={styles.socialIcon}
+            height={15}
+            alt="facebook "
+          />
+        </Link>
+        <Link
+          href={"https://www.instagram.com/accounts/login/"}
+          target="_blank"
+        >
+          <Image
+            src="/2.png"
+            width={15}
+            className={styles.socialIcon}
+            height={15}
+            alt="instagram "
+          />
+        </Link>
+        <Link href={"https://twitter.com/"} target="_blank">
+          <Image
+            src="/3.png"
+            width={15}
+            className={styles.socialIcon}
+            height={15}
+            alt="x "
+          />
+        </Link>
+        <Link href={"https://www.youtube.com/"} target="_blank">
+          <Image
+            src="/4.png"
+            width={15}
+            className={styles.socialIcon}
+            height={15}
+            alt="youtube "
+          />
+        </Link>
       </div>
     </div>
-
-    </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
